@@ -2,19 +2,30 @@
   "$id": "https://divvydiary.com/schemas/user.json",
   "type": "object",
   "properties": {
-    "id": { "$ref": "defs.json#/definitions/userId" },
-    "email": { "$ref": "defs.json#/definitions/email" },
+    "id": {
+      "$ref": "https://divvydiary.com/schemas/defs.json#/definitions/userId"
+    },
+    "email": {
+      "$ref": "https://divvydiary.com/schemas/defs.json#/definitions/email"
+    },
     "forename": { "type": "string", "maxLength": 255 },
     "newsletter": { "type": "boolean" },
     "emailConfirmed": { "type": "boolean" },
     "currency": {
       "oneOf": [
-        { "$ref": "defs.json#/definitions/currency" },
+        {
+          "$ref": "https://divvydiary.com/schemas/defs.json#/definitions/currency"
+        },
         { "type": "null" }
       ]
     },
     "apiKey": {
-      "oneOf": [{ "$ref": "defs.json#/definitions/uuid" }, { "type": "null" }]
+      "oneOf": [
+        {
+          "$ref": "https://divvydiary.com/schemas/defs.json#/definitions/uuid"
+        },
+        { "type": "null" }
+      ]
     },
     "emailNotificationDaily": { "type": "boolean" },
     "emailNotificationWeekly": { "type": "boolean" },

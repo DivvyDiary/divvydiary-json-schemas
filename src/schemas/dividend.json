@@ -38,10 +38,17 @@
       "minimum": 0,
       "multipleOf": 0.01
     },
-    "isin": { "$ref": "defs.json#/definitions/isin" },
-    "wkn": {
-      "oneOf": [{ "$ref": "defs.json#/definitions/wkn" }, { "type": "null" }]
+    "isin": {
+      "$ref": "https://divvydiary.com/schemas/defs.json#/definitions/isin"
     },
-    "currency": { "$ref": "defs.json#/definitions/currency" }
+    "wkn": {
+      "oneOf": [
+        { "$ref": "https://divvydiary.com/schemas/defs.json#/definitions/wkn" },
+        { "type": "null" }
+      ]
+    },
+    "currency": {
+      "$ref": "https://divvydiary.com/schemas/defs.json#/definitions/currency"
+    }
   }
 }

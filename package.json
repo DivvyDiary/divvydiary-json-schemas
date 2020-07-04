@@ -1,11 +1,11 @@
 {
   "name": "@divvydiary/divvydiary-json-schemas",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "JSON Schemas for DivvyDiary.com",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node src/index",
-    "test": "node src/test"
+    "start": "nodemon bundle.js --watch src",
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",

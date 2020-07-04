@@ -4,7 +4,7 @@ const path = require("path");
 
 var ajv = new Ajv();
 
-glob.sync(`${__dirname}/schemas/*.json`).forEach((file) => {
+glob.sync(`${__dirname}/src/schemas/*.json`).forEach((file) => {
   console.log(file);
 
   const schema = require(path.resolve(file));

@@ -11,10 +11,17 @@
       "minLength": 1,
       "maxLength": 6
     },
-    "isin": { "$ref": "defs.json#/definitions/isin" },
-    "wkn": {
-      "oneOf": [{ "$ref": "defs.json#/definitions/wkn" }, { "type": "null" }]
+    "isin": {
+      "$ref": "https://divvydiary.com/schemas/defs.json#/definitions/isin"
     },
-    "exchange": { "$ref": "defs.json#/definitions/exchange" }
+    "wkn": {
+      "oneOf": [
+        { "$ref": "https://divvydiary.com/schemas/defs.json#/definitions/wkn" },
+        { "type": "null" }
+      ]
+    },
+    "exchange": {
+      "$ref": "https://divvydiary.com/schemas/defs.json#/definitions/exchange"
+    }
   }
 }
