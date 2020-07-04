@@ -1,0 +1,103 @@
+{
+  "$id": "https://divvydiary.com/schemas/defs.json",
+  "definitions": {
+    "currency": {
+      "type": "string",
+      "enum": [
+        "AUD",
+        "BGN",
+        "BRL",
+        "CAD",
+        "CHF",
+        "CNY",
+        "CZK",
+        "DKK",
+        "EUR",
+        "GBP",
+        "HKD",
+        "HRK",
+        "HUF",
+        "IDR",
+        "ILS",
+        "INR",
+        "ISK",
+        "JPY",
+        "KRW",
+        "MXN",
+        "MYR",
+        "NOK",
+        "NZD",
+        "PHP",
+        "PLN",
+        "RON",
+        "RUB",
+        "SEK",
+        "SGD",
+        "THB",
+        "TRY",
+        "USD",
+        "ZAR"
+      ]
+    },
+    "email": {
+      "type": "string",
+      "format": "email",
+      "maxLength": 255
+    },
+    "exchange": {
+      "type": "string",
+      "enum": [
+        "OTC",
+        "XAMS",
+        "XASX",
+        "XBRN",
+        "XBRU",
+        "XCSE",
+        "XETR",
+        "XFRA",
+        "XHEL",
+        "XLON",
+        "XMAD",
+        "XMIL",
+        "XMOS",
+        "XNAS",
+        "XNSE",
+        "XNXC",
+        "XNYS",
+        "XOSL",
+        "XPAR",
+        "XSHG",
+        "XSTO",
+        "XSWX",
+        "XTSE",
+        "XTSX",
+        "XWBO"
+      ]
+    },
+    "isin": {
+      "type": "string",
+      "minLength": 12,
+      "maxLength": 12
+    },
+    "password": {
+      "type": "string",
+      "minLength": 6
+    },
+    "userId": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 4294967295
+    },
+    "uuid": {
+      "type": "string",
+      "minLength": 36,
+      "maxLength": 36,
+      "format": "uuid"
+    },
+    "wkn": {
+      "type": "string",
+      "minLength": 6,
+      "maxLength": 6
+    }
+  }
+}

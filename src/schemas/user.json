@@ -1,0 +1,24 @@
+{
+  "$id": "https://divvydiary.com/schemas/user.json",
+  "type": "object",
+  "properties": {
+    "id": { "$ref": "defs.json#/definitions/userId" },
+    "email": { "$ref": "defs.json#/definitions/email" },
+    "forename": { "type": "string", "maxLength": 255 },
+    "newsletter": { "type": "boolean" },
+    "emailConfirmed": { "type": "boolean" },
+    "currency": {
+      "oneOf": [
+        { "$ref": "defs.json#/definitions/currency" },
+        { "type": "null" }
+      ]
+    },
+    "apiKey": {
+      "oneOf": [{ "$ref": "defs.json#/definitions/uuid" }, { "type": "null" }]
+    },
+    "emailNotificationDaily": { "type": "boolean" },
+    "emailNotificationWeekly": { "type": "boolean" },
+    "emailNotificationMonthly": { "type": "boolean" },
+    "pushNotificationDaily": { "type": "boolean" }
+  }
+}

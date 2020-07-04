@@ -1,0 +1,47 @@
+{
+  "$id": "https://divvydiary.com/schemas/dividend.json",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "exDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "payDate": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "name": {
+      "type": "string",
+      "maxLength": 255
+    },
+    "symbol": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 6
+    },
+    "amount": {
+      "type": "number",
+      "minimum": 0,
+      "multipleOf": 0.0001
+    },
+    "lastAmount": {
+      "type": "number",
+      "minimum": 0,
+      "multipleOf": 0.0001
+    },
+    "quantity": {
+      "type": "number",
+      "minimum": 0,
+      "multipleOf": 0.01
+    },
+    "isin": { "$ref": "defs.json#/definitions/isin" },
+    "wkn": {
+      "oneOf": [{ "$ref": "defs.json#/definitions/wkn" }, { "type": "null" }]
+    },
+    "currency": { "$ref": "defs.json#/definitions/currency" }
+  }
+}
