@@ -16,6 +16,9 @@
     "url": "https://github.com/DivvyDiary/divvydiary-json-schemas/issues"
   },
   "homepage": "https://github.com/DivvyDiary/divvydiary-json-schemas#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "npm test && pretty-quick --staged"
