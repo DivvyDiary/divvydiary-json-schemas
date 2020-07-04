@@ -4,7 +4,6 @@
   "description": "JSON Schemas for DivvyDiary.com",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon bundle.js --watch src",
     "test": "node test.js"
   },
   "repository": {
