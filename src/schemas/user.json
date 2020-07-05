@@ -3,10 +3,14 @@
   "type": "object",
   "properties": {
     "id": {
-      "$ref": "https://divvydiary.com/schemas/defs.json#/definitions/userId"
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 4294967295
     },
     "email": {
-      "$ref": "https://divvydiary.com/schemas/defs.json#/definitions/email"
+      "type": "string",
+      "format": "email",
+      "maxLength": 255
     },
     "forename": { "type": "string", "maxLength": 255 },
     "newsletter": { "type": "boolean" },

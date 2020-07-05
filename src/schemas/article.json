@@ -1,0 +1,29 @@
+{
+  "$id": "https://divvydiary.com/schemas/article.json",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "number",
+      "minimum": 1,
+      "maximum": 4294967295
+    },
+    "date": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 3,
+      "maxLength": 255
+    },
+    "abstract": {
+      "type": "string",
+      "minLength": 3
+    },
+    "fulltext": {
+      "type": "string",
+      "minLength": 3
+    }
+  },
+  "required": ["abstract", "date", "fulltext", "id", "title"]
+}

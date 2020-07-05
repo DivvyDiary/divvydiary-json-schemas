@@ -39,11 +39,6 @@
         "ZAR"
       ]
     },
-    "email": {
-      "type": "string",
-      "format": "email",
-      "maxLength": 255
-    },
     "exchange": {
       "type": "string",
       "enum": [
@@ -82,11 +77,6 @@
     "password": {
       "type": "string",
       "minLength": 6
-    },
-    "userId": {
-      "type": "integer",
-      "minimum": 1,
-      "maximum": 4294967295
     },
     "uuid": {
       "type": "string",
