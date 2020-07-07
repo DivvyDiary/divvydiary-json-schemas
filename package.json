@@ -5,6 +5,9 @@
   "main": "index.js",
   "scripts": {
     "docs": "jsonschema2md -d src/schemas -o docs -e json -x -",
+    "preversion": "npm test",
+    "version": "npm run docs && git add -A docs",
+    "postversion": "git push && git push --tags",
     "test": "node test.js"
   },
   "repository": {
@@ -22,7 +25,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm test && npm run docs && pretty-quick --staged"
+      "pre-commit": "npm test && pretty-quick --staged"
     }
   },
   "devDependencies": {
