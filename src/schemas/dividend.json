@@ -1,6 +1,7 @@
 {
   "$id": "https://divvydiary.com/schemas/dividend.json",
   "type": "object",
+  "title": "Dividend",
   "properties": {
     "id": {
       "type": "integer",

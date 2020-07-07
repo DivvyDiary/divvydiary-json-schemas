@@ -1,5 +1,6 @@
 {
   "$id": "https://divvydiary.com/schemas/defs.json",
+  "title": "Definitions",
   "definitions": {
     "currency": {
       "type": "string",

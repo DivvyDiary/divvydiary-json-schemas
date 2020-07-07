@@ -1,6 +1,7 @@
 {
   "$id": "https://divvydiary.com/schemas/user.json",
   "type": "object",
+  "title": "User",
   "properties": {
     "id": {
       "type": "integer",

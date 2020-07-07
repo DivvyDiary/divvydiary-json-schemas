@@ -4,6 +4,7 @@
   "description": "JSON Schemas for DivvyDiary.com",
   "main": "index.js",
   "scripts": {
+    "docs": "jsonschema2md -d src/schemas -o docs -e json",
     "test": "node test.js"
   },
   "repository": {
@@ -21,10 +22,11 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm test && pretty-quick --staged"
+      "pre-commit": "npm test && npm run docs && pretty-quick --staged"
     }
   },
   "devDependencies": {
+    "@adobe/jsonschema2md": "^4.1.5",
     "ajv": "^6.12.3",
     "glob": "^7.1.6",
     "husky": "^4.2.5",

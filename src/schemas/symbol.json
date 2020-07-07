@@ -1,6 +1,7 @@
 {
   "$id": "https://divvydiary.com/schemas/symbol.json",
   "type": "object",
+  "title": "Symbol",
   "properties": {
     "name": {
       "type": "string",
