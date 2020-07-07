@@ -4,7 +4,7 @@
   "description": "JSON Schemas for DivvyDiary.com",
   "main": "index.js",
   "scripts": {
-    "docs": "jsonschema2md -d src/schemas -o docs -e json",
+    "docs": "jsonschema2md -d src/schemas -o docs -e json -x -",
     "test": "node test.js"
   },
   "repository": {
