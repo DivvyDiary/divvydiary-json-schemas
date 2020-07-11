@@ -14,19 +14,19 @@ https://divvydiary.com/schemas/dividend.json
 
 # Dividend Properties
 
-| Property                  | Type      | Required | Nullable       | Defined by                                                                                                          |
-| :------------------------ | --------- | -------- | -------------- | :------------------------------------------------------------------------------------------------------------------ |
-| [id](#id)                 | `integer` | Optional | cannot be null | [Dividend](dividend-properties-id.md "https://divvydiary.com/schemas/dividend.json#/properties/id")                 |
-| [exDate](#exDate)         | `string`  | Optional | cannot be null | [Dividend](dividend-properties-exdate.md "https://divvydiary.com/schemas/dividend.json#/properties/exDate")         |
-| [payDate](#payDate)       | `string`  | Optional | cannot be null | [Dividend](dividend-properties-paydate.md "https://divvydiary.com/schemas/dividend.json#/properties/payDate")       |
-| [name](#name)             | `string`  | Optional | cannot be null | [Dividend](dividend-properties-name.md "https://divvydiary.com/schemas/dividend.json#/properties/name")             |
-| [symbol](#symbol)         | `string`  | Optional | cannot be null | [Dividend](dividend-properties-symbol.md "https://divvydiary.com/schemas/dividend.json#/properties/symbol")         |
-| [amount](#amount)         | `number`  | Optional | cannot be null | [Dividend](dividend-properties-amount.md "https://divvydiary.com/schemas/dividend.json#/properties/amount")         |
-| [lastAmount](#lastAmount) | `number`  | Optional | cannot be null | [Dividend](dividend-properties-lastamount.md "https://divvydiary.com/schemas/dividend.json#/properties/lastAmount") |
-| [quantity](#quantity)     | `number`  | Optional | cannot be null | [Dividend](dividend-properties-quantity.md "https://divvydiary.com/schemas/dividend.json#/properties/quantity")     |
-| [isin](#isin)             | `string`  | Optional | cannot be null | [Dividend](defs-definitions-isin.md "https://divvydiary.com/schemas/dividend.json#/properties/isin")                |
-| [wkn](#wkn)               | Merged    | Optional | cannot be null | [Dividend](dividend-properties-wkn.md "https://divvydiary.com/schemas/dividend.json#/properties/wkn")               |
-| [currency](#currency)     | `string`  | Optional | cannot be null | [Dividend](defs-definitions-currency.md "https://divvydiary.com/schemas/dividend.json#/properties/currency")        |
+| Property                      | Type      | Required | Nullable       | Defined by                                                                                                              |
+| :---------------------------- | --------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------- |
+| [id](#id)                     | `integer` | Optional | cannot be null | [Dividend](dividend-properties-id.md "https://divvydiary.com/schemas/dividend.json#/properties/id")                     |
+| [exDate](#exDate)             | `string`  | Optional | cannot be null | [Dividend](dividend-properties-exdate.md "https://divvydiary.com/schemas/dividend.json#/properties/exDate")             |
+| [payDate](#payDate)           | `string`  | Optional | cannot be null | [Dividend](dividend-properties-paydate.md "https://divvydiary.com/schemas/dividend.json#/properties/payDate")           |
+| [name](#name)                 | `string`  | Optional | cannot be null | [Dividend](dividend-properties-name.md "https://divvydiary.com/schemas/dividend.json#/properties/name")                 |
+| [symbol](#symbol)             | `string`  | Optional | cannot be null | [Dividend](dividend-properties-symbol.md "https://divvydiary.com/schemas/dividend.json#/properties/symbol")             |
+| [amount](#amount)             | `number`  | Optional | cannot be null | [Dividend](dividend-properties-amount.md "https://divvydiary.com/schemas/dividend.json#/properties/amount")             |
+| [quantity](#quantity)         | `number`  | Optional | cannot be null | [Dividend](dividend-properties-quantity.md "https://divvydiary.com/schemas/dividend.json#/properties/quantity")         |
+| [exchangeRate](#exchangeRate) | `number`  | Optional | cannot be null | [Dividend](dividend-properties-exchangerate.md "https://divvydiary.com/schemas/dividend.json#/properties/exchangeRate") |
+| [isin](#isin)                 | `string`  | Optional | cannot be null | [Dividend](defs-definitions-isin.md "https://divvydiary.com/schemas/dividend.json#/properties/isin")                    |
+| [wkn](#wkn)                   | Merged    | Optional | cannot be null | [Dividend](dividend-properties-wkn.md "https://divvydiary.com/schemas/dividend.json#/properties/wkn")                   |
+| [currency](#currency)         | `string`  | Optional | cannot be null | [Dividend](defs-definitions-currency.md "https://divvydiary.com/schemas/dividend.json#/properties/currency")            |
 
 ## id
 
@@ -134,25 +134,6 @@ https://divvydiary.com/schemas/dividend.json
 
 **minimum**: the value of this number must greater than or equal to: `0`
 
-## lastAmount
-
-`lastAmount`
-
-- is optional
-- Type: `number`
-- cannot be null
-- defined in: [Dividend](dividend-properties-lastamount.md "https://divvydiary.com/schemas/dividend.json#/properties/lastAmount")
-
-### lastAmount Type
-
-`number`
-
-### lastAmount Constraints
-
-**multiple of**: the value of this number must be a multiple of: `0.0001`
-
-**minimum**: the value of this number must greater than or equal to: `0`
-
 ## quantity
 
 `quantity`
@@ -168,7 +149,24 @@ https://divvydiary.com/schemas/dividend.json
 
 ### quantity Constraints
 
-**multiple of**: the value of this number must be a multiple of: `0.01`
+**multiple of**: the value of this number must be a multiple of: `0.0001`
+
+**minimum**: the value of this number must greater than or equal to: `0.0001`
+
+## exchangeRate
+
+`exchangeRate`
+
+- is optional
+- Type: `number`
+- cannot be null
+- defined in: [Dividend](dividend-properties-exchangerate.md "https://divvydiary.com/schemas/dividend.json#/properties/exchangeRate")
+
+### exchangeRate Type
+
+`number`
+
+### exchangeRate Constraints
 
 **minimum**: the value of this number must greater than or equal to: `0`
 
