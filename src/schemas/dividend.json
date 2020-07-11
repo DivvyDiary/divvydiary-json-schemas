@@ -29,15 +29,14 @@
       "minimum": 0,
       "multipleOf": 0.0001
     },
-    "lastAmount": {
-      "type": "number",
-      "minimum": 0,
-      "multipleOf": 0.0001
-    },
     "quantity": {
       "type": "number",
-      "minimum": 0,
-      "multipleOf": 0.01
+      "minimum": 0.0001,
+      "multipleOf": 0.0001
+    },
+    "exchangeRate": {
+      "type": "number",
+      "minimum": 0
     },
     "isin": {
       "$ref": "https://divvydiary.com/schemas/defs.json#/definitions/isin"
