@@ -37,6 +37,7 @@ https://divvydiary.com/schemas/symbol.json#/properties/exchange
 | `"XNYS"` |             |
 | `"XOSL"` |             |
 | `"XPAR"` |             |
+| `"XSES"` |             |
 | `"XSHG"` |             |
 | `"XSTO"` |             |
 | `"XSWX"` |             |

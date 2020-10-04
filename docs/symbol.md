@@ -141,6 +141,7 @@ one (and only one) of
 | `"XNYS"` |             |
 | `"XOSL"` |             |
 | `"XPAR"` |             |
+| `"XSES"` |             |
 | `"XSHG"` |             |
 | `"XSTO"` |             |
 | `"XSWX"` |             |
