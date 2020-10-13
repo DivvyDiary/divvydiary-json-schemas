@@ -127,6 +127,7 @@ one (and only one) of
 | `"XASX"` |             |
 | `"XBRN"` |             |
 | `"XBRU"` |             |
+| `"XCBO"` |             |
 | `"XCSE"` |             |
 | `"XETR"` |             |
 | `"XFRA"` |             |

@@ -23,6 +23,7 @@ https://divvydiary.com/schemas/symbol.json#/properties/exchange
 | `"XASX"` |             |
 | `"XBRN"` |             |
 | `"XBRU"` |             |
+| `"XCBO"` |             |
 | `"XCSE"` |             |
 | `"XETR"` |             |
 | `"XFRA"` |             |
