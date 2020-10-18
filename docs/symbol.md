@@ -146,6 +146,7 @@ one (and only one) of
 | `"XSHG"` |             |
 | `"XSTO"` |             |
 | `"XSWX"` |             |
+| `"XTKS"` |             |
 | `"XTSE"` |             |
 | `"XTSX"` |             |
 | `"XWBO"` |             |

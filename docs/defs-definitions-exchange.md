@@ -42,6 +42,7 @@ https://divvydiary.com/schemas/symbol.json#/properties/exchange
 | `"XSHG"` |             |
 | `"XSTO"` |             |
 | `"XSWX"` |             |
+| `"XTKS"` |             |
 | `"XTSE"` |             |
 | `"XTSX"` |             |
 | `"XWBO"` |             |
