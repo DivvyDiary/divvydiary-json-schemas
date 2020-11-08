@@ -149,4 +149,5 @@ one (and only one) of
 | `"XTKS"` |             |
 | `"XTSE"` |             |
 | `"XTSX"` |             |
+| `"XWAR"` |             |
 | `"XWBO"` |             |

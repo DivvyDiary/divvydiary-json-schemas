@@ -20,13 +20,13 @@ https://divvydiary.com/schemas/user.json
 | [email](#email)                                       | `string`  | Optional | cannot be null | [User](user-properties-email.md "https://divvydiary.com/schemas/user.json#/properties/email")                                       |
 | [forename](#forename)                                 | `string`  | Optional | cannot be null | [User](user-properties-forename.md "https://divvydiary.com/schemas/user.json#/properties/forename")                                 |
 | [newsletter](#newsletter)                             | `boolean` | Optional | cannot be null | [User](user-properties-newsletter.md "https://divvydiary.com/schemas/user.json#/properties/newsletter")                             |
-| [emailConfirmed](#emailConfirmed)                     | `boolean` | Optional | cannot be null | [User](user-properties-emailconfirmed.md "https://divvydiary.com/schemas/user.json#/properties/emailConfirmed")                     |
+| [emailConfirmed](#emailconfirmed)                     | `boolean` | Optional | cannot be null | [User](user-properties-emailconfirmed.md "https://divvydiary.com/schemas/user.json#/properties/emailConfirmed")                     |
 | [currency](#currency)                                 | Merged    | Optional | cannot be null | [User](user-properties-currency.md "https://divvydiary.com/schemas/user.json#/properties/currency")                                 |
-| [apiKey](#apiKey)                                     | Merged    | Optional | cannot be null | [User](user-properties-apikey.md "https://divvydiary.com/schemas/user.json#/properties/apiKey")                                     |
-| [emailNotificationDaily](#emailNotificationDaily)     | `boolean` | Optional | cannot be null | [User](user-properties-emailnotificationdaily.md "https://divvydiary.com/schemas/user.json#/properties/emailNotificationDaily")     |
-| [emailNotificationWeekly](#emailNotificationWeekly)   | `boolean` | Optional | cannot be null | [User](user-properties-emailnotificationweekly.md "https://divvydiary.com/schemas/user.json#/properties/emailNotificationWeekly")   |
-| [emailNotificationMonthly](#emailNotificationMonthly) | `boolean` | Optional | cannot be null | [User](user-properties-emailnotificationmonthly.md "https://divvydiary.com/schemas/user.json#/properties/emailNotificationMonthly") |
-| [pushNotificationDaily](#pushNotificationDaily)       | `boolean` | Optional | cannot be null | [User](user-properties-pushnotificationdaily.md "https://divvydiary.com/schemas/user.json#/properties/pushNotificationDaily")       |
+| [apiKey](#apikey)                                     | Merged    | Optional | cannot be null | [User](user-properties-apikey.md "https://divvydiary.com/schemas/user.json#/properties/apiKey")                                     |
+| [emailNotificationDaily](#emailnotificationdaily)     | `boolean` | Optional | cannot be null | [User](user-properties-emailnotificationdaily.md "https://divvydiary.com/schemas/user.json#/properties/emailNotificationDaily")     |
+| [emailNotificationWeekly](#emailnotificationweekly)   | `boolean` | Optional | cannot be null | [User](user-properties-emailnotificationweekly.md "https://divvydiary.com/schemas/user.json#/properties/emailNotificationWeekly")   |
+| [emailNotificationMonthly](#emailnotificationmonthly) | `boolean` | Optional | cannot be null | [User](user-properties-emailnotificationmonthly.md "https://divvydiary.com/schemas/user.json#/properties/emailNotificationMonthly") |
+| [pushNotificationDaily](#pushnotificationdaily)       | `boolean` | Optional | cannot be null | [User](user-properties-pushnotificationdaily.md "https://divvydiary.com/schemas/user.json#/properties/pushNotificationDaily")       |
 
 ## id
 

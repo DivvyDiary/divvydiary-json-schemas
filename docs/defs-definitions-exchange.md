@@ -45,4 +45,5 @@ https://divvydiary.com/schemas/symbol.json#/properties/exchange
 | `"XTKS"` |             |
 | `"XTSE"` |             |
 | `"XTSX"` |             |
+| `"XWAR"` |             |
 | `"XWBO"` |             |
