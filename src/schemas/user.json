@@ -35,6 +35,7 @@
     "emailNotificationDaily": { "type": "boolean" },
     "emailNotificationWeekly": { "type": "boolean" },
     "emailNotificationMonthly": { "type": "boolean" },
-    "pushNotificationDaily": { "type": "boolean" }
+    "pushNotificationDaily": { "type": "boolean" },
+    "shared": { "type": "boolean" }
   }
 }
