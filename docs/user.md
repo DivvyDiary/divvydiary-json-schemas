@@ -27,6 +27,7 @@ https://divvydiary.com/schemas/user.json
 | [emailNotificationWeekly](#emailnotificationweekly)   | `boolean` | Optional | cannot be null | [User](user-properties-emailnotificationweekly.md "https://divvydiary.com/schemas/user.json#/properties/emailNotificationWeekly")   |
 | [emailNotificationMonthly](#emailnotificationmonthly) | `boolean` | Optional | cannot be null | [User](user-properties-emailnotificationmonthly.md "https://divvydiary.com/schemas/user.json#/properties/emailNotificationMonthly") |
 | [pushNotificationDaily](#pushnotificationdaily)       | `boolean` | Optional | cannot be null | [User](user-properties-pushnotificationdaily.md "https://divvydiary.com/schemas/user.json#/properties/pushNotificationDaily")       |
+| [shared](#shared)                                     | `boolean` | Optional | cannot be null | [User](user-properties-shared.md "https://divvydiary.com/schemas/user.json#/properties/shared")                                     |
 
 ## id
 
@@ -194,5 +195,18 @@ one (and only one) of
 - defined in: [User](user-properties-pushnotificationdaily.md "https://divvydiary.com/schemas/user.json#/properties/pushNotificationDaily")
 
 ### pushNotificationDaily Type
+
+`boolean`
+
+## shared
+
+`shared`
+
+- is optional
+- Type: `boolean`
+- cannot be null
+- defined in: [User](user-properties-shared.md "https://divvydiary.com/schemas/user.json#/properties/shared")
+
+### shared Type
 
 `boolean`

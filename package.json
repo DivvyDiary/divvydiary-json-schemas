@@ -1,6 +1,6 @@
 {
   "name": "@divvydiary/divvydiary-json-schemas",
-  "version": "0.4.4",
+  "version": "0.4.5",
   "description": "JSON Schemas for DivvyDiary.com",
   "main": "index.js",
   "scripts": {
