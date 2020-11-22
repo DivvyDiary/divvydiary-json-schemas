@@ -25,7 +25,6 @@ Reference this group by using
 | Property | Type | Required | Nullable | Defined by |
 | :------- | ---- | -------- | -------- | :--------- |
 
-
 ## Definitions group exchange
 
 Reference this group by using
@@ -36,7 +35,6 @@ Reference this group by using
 
 | Property | Type | Required | Nullable | Defined by |
 | :------- | ---- | -------- | -------- | :--------- |
-
 
 ## Definitions group isin
 
@@ -49,7 +47,6 @@ Reference this group by using
 | Property | Type | Required | Nullable | Defined by |
 | :------- | ---- | -------- | -------- | :--------- |
 
-
 ## Definitions group password
 
 Reference this group by using
@@ -60,7 +57,6 @@ Reference this group by using
 
 | Property | Type | Required | Nullable | Defined by |
 | :------- | ---- | -------- | -------- | :--------- |
-
 
 ## Definitions group uuid
 
@@ -73,7 +69,6 @@ Reference this group by using
 | Property | Type | Required | Nullable | Defined by |
 | :------- | ---- | -------- | -------- | :--------- |
 
-
 ## Definitions group wkn
 
 Reference this group by using
@@ -84,4 +79,3 @@ Reference this group by using
 
 | Property | Type | Required | Nullable | Defined by |
 | :------- | ---- | -------- | -------- | :--------- |
-
