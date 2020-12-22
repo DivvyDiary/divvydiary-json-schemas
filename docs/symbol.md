@@ -125,6 +125,7 @@ one (and only one) of
 | `"OTC"`  |             |
 | `"XAMS"` |             |
 | `"XASX"` |             |
+| `"XBER"` |             |
 | `"XBRN"` |             |
 | `"XBRU"` |             |
 | `"XCBO"` |             |

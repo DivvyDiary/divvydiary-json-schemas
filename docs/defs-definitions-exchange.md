@@ -21,6 +21,7 @@ https://divvydiary.com/schemas/symbol.json#/properties/exchange
 | `"OTC"`  |             |
 | `"XAMS"` |             |
 | `"XASX"` |             |
+| `"XBER"` |             |
 | `"XBRN"` |             |
 | `"XBRU"` |             |
 | `"XCBO"` |             |
