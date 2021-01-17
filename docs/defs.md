@@ -79,3 +79,16 @@ Reference this group by using
 
 | Property | Type | Required | Nullable | Defined by |
 | :------- | ---- | -------- | -------- | :--------- |
+
+## Definitions group dividendFrequency
+
+Reference this group by using
+
+```json
+{
+  "$ref": "https://divvydiary.com/schemas/defs.json#/definitions/dividendFrequency"
+}
+```
+
+| Property | Type | Required | Nullable | Defined by |
+| :------- | ---- | -------- | -------- | :--------- |
