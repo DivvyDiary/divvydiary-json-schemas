@@ -23,6 +23,9 @@
     },
     "exchange": {
       "$ref": "https://divvydiary.com/schemas/defs.json#/definitions/exchange"
+    },
+    "dividendFrequency": {
+      "$ref": "https://divvydiary.com/schemas/defs.json#/definitions/dividendFrequency"
     }
   }
 }

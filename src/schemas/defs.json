@@ -231,6 +231,10 @@
       "minLength": 6,
       "maxLength": 6,
       "pattern": "^[A-Z0-9]{6}$"
+    },
+    "dividendFrequency": {
+      "type": "string",
+      "enum": ["none", "monthly", "quarterly", "biannually", "annually"]
     }
   }
 }
