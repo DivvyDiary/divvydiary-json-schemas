@@ -5,7 +5,7 @@ https://divvydiary.com/schemas/defs.json
 ```
 
 | Abstract               | Extensible | Status         | Identifiable            | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                   |
-| :--------------------- | ---------- | -------------- | ----------------------- | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------ |
+| :--------------------- | :--------- | :------------- | :---------------------- | :---------------- | :-------------------- | :------------------ | :----------------------------------------------------------- |
 | Cannot be instantiated | Yes        | Unknown status | Unknown identifiability | Forbidden         | Allowed               | none                | [defs.json](../src/schemas/defs.json "open original schema") |
 
 ## Definitions Type
@@ -23,7 +23,7 @@ Reference this group by using
 ```
 
 | Property | Type | Required | Nullable | Defined by |
-| :------- | ---- | -------- | -------- | :--------- |
+| :------- | :--- | :------- | :------- | :--------- |
 
 ## Definitions group exchange
 
@@ -34,7 +34,7 @@ Reference this group by using
 ```
 
 | Property | Type | Required | Nullable | Defined by |
-| :------- | ---- | -------- | -------- | :--------- |
+| :------- | :--- | :------- | :------- | :--------- |
 
 ## Definitions group isin
 
@@ -45,7 +45,7 @@ Reference this group by using
 ```
 
 | Property | Type | Required | Nullable | Defined by |
-| :------- | ---- | -------- | -------- | :--------- |
+| :------- | :--- | :------- | :------- | :--------- |
 
 ## Definitions group password
 
@@ -56,7 +56,7 @@ Reference this group by using
 ```
 
 | Property | Type | Required | Nullable | Defined by |
-| :------- | ---- | -------- | -------- | :--------- |
+| :------- | :--- | :------- | :------- | :--------- |
 
 ## Definitions group uuid
 
@@ -67,7 +67,7 @@ Reference this group by using
 ```
 
 | Property | Type | Required | Nullable | Defined by |
-| :------- | ---- | -------- | -------- | :--------- |
+| :------- | :--- | :------- | :------- | :--------- |
 
 ## Definitions group wkn
 
@@ -78,7 +78,7 @@ Reference this group by using
 ```
 
 | Property | Type | Required | Nullable | Defined by |
-| :------- | ---- | -------- | -------- | :--------- |
+| :------- | :--- | :------- | :------- | :--------- |
 
 ## Definitions group dividendFrequency
 
@@ -91,4 +91,4 @@ Reference this group by using
 ```
 
 | Property | Type | Required | Nullable | Defined by |
-| :------- | ---- | -------- | -------- | :--------- |
+| :------- | :--- | :------- | :------- | :--------- |

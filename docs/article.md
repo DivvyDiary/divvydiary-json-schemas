@@ -5,7 +5,7 @@ https://divvydiary.com/schemas/article.json
 ```
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                         |
-| :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | ------------------------------------------------------------------ |
+| :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :----------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [article.json](../src/schemas/article.json "open original schema") |
 
 ## Article Type
@@ -15,7 +15,7 @@ https://divvydiary.com/schemas/article.json
 # Article Properties
 
 | Property              | Type     | Required | Nullable       | Defined by                                                                                                   |
-| :-------------------- | -------- | -------- | -------------- | :----------------------------------------------------------------------------------------------------------- |
+| :-------------------- | :------- | :------- | :------------- | :----------------------------------------------------------------------------------------------------------- |
 | [id](#id)             | `number` | Required | cannot be null | [Article](article-properties-id.md "https://divvydiary.com/schemas/article.json#/properties/id")             |
 | [date](#date)         | `string` | Required | cannot be null | [Article](article-properties-date.md "https://divvydiary.com/schemas/article.json#/properties/date")         |
 | [title](#title)       | `string` | Required | cannot be null | [Article](article-properties-title.md "https://divvydiary.com/schemas/article.json#/properties/title")       |
@@ -27,8 +27,11 @@ https://divvydiary.com/schemas/article.json
 `id`
 
 - is required
+
 - Type: `number`
+
 - cannot be null
+
 - defined in: [Article](article-properties-id.md "https://divvydiary.com/schemas/article.json#/properties/id")
 
 ### id Type
@@ -46,8 +49,11 @@ https://divvydiary.com/schemas/article.json
 `date`
 
 - is required
+
 - Type: `string`
+
 - cannot be null
+
 - defined in: [Article](article-properties-date.md "https://divvydiary.com/schemas/article.json#/properties/date")
 
 ### date Type
@@ -63,8 +69,11 @@ https://divvydiary.com/schemas/article.json
 `title`
 
 - is required
+
 - Type: `string`
+
 - cannot be null
+
 - defined in: [Article](article-properties-title.md "https://divvydiary.com/schemas/article.json#/properties/title")
 
 ### title Type
@@ -82,8 +91,11 @@ https://divvydiary.com/schemas/article.json
 `abstract`
 
 - is required
+
 - Type: `string`
+
 - cannot be null
+
 - defined in: [Article](article-properties-abstract.md "https://divvydiary.com/schemas/article.json#/properties/abstract")
 
 ### abstract Type
@@ -99,8 +111,11 @@ https://divvydiary.com/schemas/article.json
 `fulltext`
 
 - is required
+
 - Type: `string`
+
 - cannot be null
+
 - defined in: [Article](article-properties-fulltext.md "https://divvydiary.com/schemas/article.json#/properties/fulltext")
 
 ### fulltext Type

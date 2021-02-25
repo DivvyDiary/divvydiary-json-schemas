@@ -5,7 +5,7 @@ https://divvydiary.com/schemas/dividend.json
 ```
 
 | Abstract            | Extensible | Status         | Identifiable | Custom Properties | Additional Properties | Access Restrictions | Defined In                                                           |
-| :------------------ | ---------- | -------------- | ------------ | :---------------- | --------------------- | ------------------- | -------------------------------------------------------------------- |
+| :------------------ | :--------- | :------------- | :----------- | :---------------- | :-------------------- | :------------------ | :------------------------------------------------------------------- |
 | Can be instantiated | No         | Unknown status | No           | Forbidden         | Allowed               | none                | [dividend.json](../src/schemas/dividend.json "open original schema") |
 
 ## Dividend Type
@@ -15,7 +15,7 @@ https://divvydiary.com/schemas/dividend.json
 # Dividend Properties
 
 | Property                      | Type      | Required | Nullable       | Defined by                                                                                                              |
-| :---------------------------- | --------- | -------- | -------------- | :---------------------------------------------------------------------------------------------------------------------- |
+| :---------------------------- | :-------- | :------- | :------------- | :---------------------------------------------------------------------------------------------------------------------- |
 | [id](#id)                     | `integer` | Optional | cannot be null | [Dividend](dividend-properties-id.md "https://divvydiary.com/schemas/dividend.json#/properties/id")                     |
 | [exDate](#exdate)             | `string`  | Optional | cannot be null | [Dividend](dividend-properties-exdate.md "https://divvydiary.com/schemas/dividend.json#/properties/exDate")             |
 | [payDate](#paydate)           | `string`  | Optional | cannot be null | [Dividend](dividend-properties-paydate.md "https://divvydiary.com/schemas/dividend.json#/properties/payDate")           |
@@ -33,8 +33,11 @@ https://divvydiary.com/schemas/dividend.json
 `id`
 
 - is optional
+
 - Type: `integer`
+
 - cannot be null
+
 - defined in: [Dividend](dividend-properties-id.md "https://divvydiary.com/schemas/dividend.json#/properties/id")
 
 ### id Type
@@ -50,8 +53,11 @@ https://divvydiary.com/schemas/dividend.json
 `exDate`
 
 - is optional
+
 - Type: `string`
+
 - cannot be null
+
 - defined in: [Dividend](dividend-properties-exdate.md "https://divvydiary.com/schemas/dividend.json#/properties/exDate")
 
 ### exDate Type
@@ -67,8 +73,11 @@ https://divvydiary.com/schemas/dividend.json
 `payDate`
 
 - is optional
+
 - Type: `string`
+
 - cannot be null
+
 - defined in: [Dividend](dividend-properties-paydate.md "https://divvydiary.com/schemas/dividend.json#/properties/payDate")
 
 ### payDate Type
@@ -84,8 +93,11 @@ https://divvydiary.com/schemas/dividend.json
 `name`
 
 - is optional
+
 - Type: `string`
+
 - cannot be null
+
 - defined in: [Dividend](dividend-properties-name.md "https://divvydiary.com/schemas/dividend.json#/properties/name")
 
 ### name Type
@@ -101,8 +113,11 @@ https://divvydiary.com/schemas/dividend.json
 `symbol`
 
 - is optional
+
 - Type: `string`
+
 - cannot be null
+
 - defined in: [Dividend](dividend-properties-symbol.md "https://divvydiary.com/schemas/dividend.json#/properties/symbol")
 
 ### symbol Type
@@ -120,8 +135,11 @@ https://divvydiary.com/schemas/dividend.json
 `amount`
 
 - is optional
+
 - Type: `number`
+
 - cannot be null
+
 - defined in: [Dividend](dividend-properties-amount.md "https://divvydiary.com/schemas/dividend.json#/properties/amount")
 
 ### amount Type
@@ -139,8 +157,11 @@ https://divvydiary.com/schemas/dividend.json
 `quantity`
 
 - is optional
+
 - Type: `number`
+
 - cannot be null
+
 - defined in: [Dividend](dividend-properties-quantity.md "https://divvydiary.com/schemas/dividend.json#/properties/quantity")
 
 ### quantity Type
@@ -158,8 +179,11 @@ https://divvydiary.com/schemas/dividend.json
 `exchangeRate`
 
 - is optional
+
 - Type: `number`
+
 - cannot be null
+
 - defined in: [Dividend](dividend-properties-exchangerate.md "https://divvydiary.com/schemas/dividend.json#/properties/exchangeRate")
 
 ### exchangeRate Type
@@ -175,8 +199,11 @@ https://divvydiary.com/schemas/dividend.json
 `isin`
 
 - is optional
+
 - Type: `string`
+
 - cannot be null
+
 - defined in: [Dividend](defs-definitions-isin.md "https://divvydiary.com/schemas/dividend.json#/properties/isin")
 
 ### isin Type
@@ -202,8 +229,11 @@ https://divvydiary.com/schemas/dividend.json
 `wkn`
 
 - is optional
+
 - Type: merged type ([Details](dividend-properties-wkn.md))
+
 - cannot be null
+
 - defined in: [Dividend](dividend-properties-wkn.md "https://divvydiary.com/schemas/dividend.json#/properties/wkn")
 
 ### wkn Type
@@ -213,6 +243,7 @@ merged type ([Details](dividend-properties-wkn.md))
 one (and only one) of
 
 - [Untitled string in Dividend](defs-definitions-wkn.md "check type definition")
+
 - [Untitled null in Dividend](dividend-properties-wkn-oneof-1.md "check type definition")
 
 ## currency
@@ -220,8 +251,11 @@ one (and only one) of
 `currency`
 
 - is optional
+
 - Type: `string`
+
 - cannot be null
+
 - defined in: [Dividend](defs-definitions-currency.md "https://divvydiary.com/schemas/dividend.json#/properties/currency")
 
 ### currency Type
@@ -233,7 +267,7 @@ one (and only one) of
 **enum**: the value of this property must be equal to one of the following values:
 
 | Value   | Explanation |
-| :------ | ----------- |
+| :------ | :---------- |
 | `"AED"` |             |
 | `"AFN"` |             |
 | `"ALL"` |             |
