@@ -151,6 +151,7 @@ one (and only one) of
 | `"XFRA"` |             |
 | `"XHEL"` |             |
 | `"XJSE"` |             |
+| `"XLIT"` |             |
 | `"XLON"` |             |
 | `"XMAD"` |             |
 | `"XMIL"` |             |
@@ -165,6 +166,7 @@ one (and only one) of
 | `"XSHG"` |             |
 | `"XSTO"` |             |
 | `"XSWX"` |             |
+| `"XTAL"` |             |
 | `"XTKS"` |             |
 | `"XTSE"` |             |
 | `"XTSX"` |             |

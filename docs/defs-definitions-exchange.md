@@ -30,6 +30,7 @@ https://divvydiary.com/schemas/symbol.json#/properties/exchange
 | `"XFRA"` |             |
 | `"XHEL"` |             |
 | `"XJSE"` |             |
+| `"XLIT"` |             |
 | `"XLON"` |             |
 | `"XMAD"` |             |
 | `"XMIL"` |             |
@@ -44,6 +45,7 @@ https://divvydiary.com/schemas/symbol.json#/properties/exchange
 | `"XSHG"` |             |
 | `"XSTO"` |             |
 | `"XSWX"` |             |
+| `"XTAL"` |             |
 | `"XTKS"` |             |
 | `"XTSE"` |             |
 | `"XTSX"` |             |
